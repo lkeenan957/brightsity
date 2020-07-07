@@ -1,0 +1,165 @@
+
+
+body{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+video{
+	width: 100%;
+}
+
+/*/--------------------------------*/
+/*/--------------------------------HEADER DETAILS*/
+nav ul li a {
+  color: white;
+  font-size: 1.25em;
+  padding-top: .5em;
+}
+nav .brand-logo.center {
+  line-height: 1em;
+  padding-top: 0.5em
+  
+}
+#logo {
+  padding-top: 20px;
+  height: 80px;
+}
+nav .nav-wrapper {
+  padding-bottom: 100px;
+  height: 40px;
+  background-color: #6666ff;
+  
+}
+ul#mobile-demo li a {
+  font-family: Playfair Display;
+  color: #3399ff;
+}
+/*.zoom {
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.zoom:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.1);
+}*/
+/*/--------------------------------*/
+/*/--------------------------------*/
+
+
+h6{
+	font-weight: bold;
+}
+
+h5{
+	font-weight: bold;
+}
+
+
+/*.price-table
+{
+  padding: 60px 0;
+  border: 1px solid red;
+}
+*/
+/*
+.single-price
+{
+  margin: 10px auto;
+  display: inline;
+  float: left;
+  width: 100%;
+  background-color: #efefef;
+  transition: 0.5s;
+  border: red solid 2px;
+}
+*/
+
+/*.price-head
+{
+ background-color: #404040;
+ color: white;
+ display: inline;
+ float: left;
+ padding: 10px 5px;
+ text-align: center;
+ width: 100%;
+ border: b solid 2px;
+}
+*/
+
+
+/*.price-content
+{
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 2% 2% 5% 5%;
+  border: #404040 solid 2px;
+  height: 100px;
+}
+*/
+/*.price-bottom{
+  border: #404040 solid 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #404040;
+  font-size: 18px;
+  padding: 55px 15px 15px;
+}
+*/
+btn{
+  
+}
+
+
+/*/////--------------contact page--------------------*/
+
+footer{
+  color: white;
+  background-color:  #4d4dff;
+
+}
+
+/*/////--------------end of contact page--------------------*/
+
+.search-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: grey;
+  height: 40px;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
